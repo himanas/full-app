@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cousine&display=swap');
+
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+
+}
+
+.butn {
+  background: #011d2f;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  width: 112px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 6px 15px 5px 15px;
+  text-decoration: none;
+  margin: 20px 0 0 0;
+}
+
+.butn:hover {
+  background: #3c59fc;
+  background-image: -webkit-linear-gradient(top, #3c59fc, #34d984);
+  background-image: -moz-linear-gradient(top, #3c59fc, #34d984);
+  background-image: -ms-linear-gradient(top, #3c59fc, #34d984);
+  background-image: -o-linear-gradient(top, #3c59fc, #34d984);
+  background-image: linear-gradient(to bottom, #3c59fc, #34d984);
+  text-decoration: none;
+}
+
+
+
+label {
+  color: #fff;
+  margin-top: 5px;
+  font-size: 1.4em;
+  font-style: initial;
+  font-family: 'Lobster Two', cursive;
+  padding: 4px;
+  font-weight: 300;
+}
+
+input {
+  width: 90%;
+  height: 120%;
+  border-radius: 10px;
+  margin: 5px;
+  padding-left: 20px;
+  font-family: 'Cousine', monospace;
+  /* box-shadow: #2980b9; */
+}
